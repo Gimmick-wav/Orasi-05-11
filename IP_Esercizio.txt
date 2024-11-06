@@ -1,0 +1,46 @@
+128.1.6.5/12 
+network 128.0.0.0
+gateway 128.0.0.1
+broadcast 128.15.255.255
+I bit dedicati alla network comprendono il primo ottetto e quattro bit del secondo
+I bit dedicati agli host comprendono la seconda metà del secondo ottetto e i restanti 2 ottetti
+
+
+200.1.2.3/24
+network 200.1.2.0
+gateway 200.1.2.1
+broadcast 200.1.2.255
+I bit dedicati alla network comprendono i primi 3 ottetti
+I bit dedicati agli host comprendono il quarto ottetto
+
+
+192.192.1.1/22
+network 192.192.0.0
+gateway 192.192.0.1
+broadcast 192.192.3.255
+I bit dedicati alla network comprendono i primi 2 ottetti e 6 bit del terzo ottetto 
+I bit dedicati agli host comprendono gli ultimi 2 bit del terzo ottetto e l'ultimo ottetto 
+
+
+126.5.4.3/9
+network 126.0.0.0
+gateway 126.0.0.1
+broadcast 126.128.255.255
+I bit dedicati alla network comprendono il primo ottetto e un bit del secondo
+I bit dedicati agli host comprendono gli ultimi 7 bit del secondo ottetto e i restanti due ottetti
+
+
+200.1.9.8/24
+network 200.1.9.0
+gateway 200.1.9.1
+broadcast 200.1.9.255
+I bit dedicati alla network comprendono i primi 3 ottetti
+I bit dedicati agli host comprendono l'ultimo ottetto  
+
+
+172.16.0.4/16
+network 172.16.0.0
+gateway 172.16.0.1
+broadcast 172.16.255.255
+I bit dedicati alla network comprendono i primi due ottetti
+I bit dedicati agli host comprendono gli ultimi due ottetti
